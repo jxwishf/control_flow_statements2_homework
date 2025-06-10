@@ -7,4 +7,9 @@ def main(a,b):
     Returns:
         int: return answer.
     """
-    return
+    if a>b:
+        print("a is the largest")
+    elif b>a:
+        print("b is the largest")
+    else: 
+        print("all of em are equal")    
